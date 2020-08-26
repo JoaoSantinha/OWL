@@ -1,0 +1,22 @@
+Package: OWL
+Type: Package
+Title: Implementation of the Ordered Weighted L1 Regularization in R
+Version: 0.1.0
+Authors@R: c(person("Joao", "Santinha", role = c("aut", "cre"),
+             email = "Controlo de janelaMobile viewjoao.santinha@tecnico.ulisboa.pt"),
+      person("Mario",  "Figueiredo", role = "aut"),
+      person("Xiangrong", "Zeng", role = "aut"),
+      person("Robert", "Nowak", role = "aut"),
+      person("Vlad", "Niculae", role = "ctb",
+             comment = "code adapted from 'pyowl'"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Implementation of the Ordered Weighted L1 Regularization 
+    in R with capabilities to run using caret train function.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    Matrix,
+    Iso,
+    phonTools
+RoxygenNote: 7.1.1
